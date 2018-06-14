@@ -5,6 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 
 import App from './components/app';
 import reducers from './reducers';
+import '../style/style.sass';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
